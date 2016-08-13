@@ -34,6 +34,7 @@ addon | version | summary
 [account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 8.0.0.1.0 | Credit control dunning fees
 [account_default_draft_move](account_default_draft_move/) | 8.0.1.0.0 | Move in draft state by default
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 8.0.0.1.1 | Check VAT on invoice validation
+[account_fiscal_year_reopen](account_fiscal_year_reopen/) | 8.0.1.0.0 | Account fiscal year reopen
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 8.0.1.0.0 | Account Invoice Constraint Chronology
 [account_invoice_currency](account_invoice_currency/) | 8.0.1.1.0 | Company currency in invoices
 [account_invoice_tax_required](account_invoice_tax_required/) | 8.0.1.0.0 | Tax required in invoice
@@ -47,6 +48,7 @@ addon | version | summary
 [account_move_template](account_move_template/) | 8.0.1.0.0 | Templates for recurring Journal Entries
 [account_netting](account_netting/) | 8.0.1.0.0 | Compensate AR/AP accounts from the same partner
 [account_partner_required](account_partner_required/) | 8.0.0.1.0 | Account partner required
+[account_reconcile_trace](account_reconcile_trace/) | 8.0.1.0.0 | Account Reconcile Trace
 [account_renumber](account_renumber/) | 8.0.1.0.0 | Account renumber wizard
 [account_reset_chart](account_reset_chart/) | 8.0.1.0.0 | Delete the accounting setup from an otherwise reusable database
 [account_reversal](account_reversal/) | 8.0.1.0.0 | Account Reversal
