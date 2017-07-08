@@ -4,9 +4,10 @@
 # 
 # Translators:
 # Accounts-Payable - Alkemics, 2015
-# Ahmet Altınışık <aaltinisik@altinkaya.com.tr>, 2015
+# Ahmet Altinisik <aaltinisik@altinkaya.com.tr>, 2015
 # Alejandro Santana <alejandrosantana@anubia.es>, 2015
 # Antonio Trueba, 2016
+# Bole <bole@dajmi5.com>, 2015
 # Chen-Do LU <clu@alkemics.com>, 2015
 # Bole <bole@dajmi5.com>, 2015
 # Dimitrios Glentadakis <dglent@gmail.com>, 2013-2014, 2015-2016
@@ -18,19 +19,20 @@
 # Hotellook, 2014
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2016
 # Jim Spentzos, 2014
+# Jim Spentzos, 2014
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
 # njeudy <njeudy@tuxservices.com>, 2015
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2015
 # Pierre Verkest <pverkest@anybox.fr>, 2015
-# Rudolf Schnapka <rs@techno-flex.de>, 2015-2016
+# Rudolf Schnapka <rs@techno-flex.de>, 2015-2017
 # SaFi J. <safi2266@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-14 01:07+0000\n"
-"PO-Revision-Date: 2016-05-14 01:12+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"POT-Creation-Date: 2017-02-17 23:22+0000\n"
+"PO-Revision-Date: 2017-02-24 22:42+0000\n"
+"Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: German (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,6 +208,16 @@ msgstr "Ermöglicht manuell die Kreditstufe anzupassen"
 #: view:credit.control.line:account_credit_control.credit_control_line_search
 msgid "An error has occured during the sending of the email."
 msgstr "Ein Fehler ist beim Email-versand aufgetreten."
+
+#. module: account_credit_control
+#: model:account.account,name:account_credit_control.a_recv_1
+msgid "B2B Debtors - (test)"
+msgstr "B2B Debitoren - (Test)"
+
+#. module: account_credit_control
+#: model:account.account,name:account_credit_control.a_recv_2
+msgid "B2C Debtors - (test)"
+msgstr "B2C Debitoren - (Test)"
 
 #. module: account_credit_control
 #: code:addons/account_credit_control/policy.py:311
@@ -491,7 +503,7 @@ msgstr "Verzugseinstellung"
 #: field:credit.control.printer,display_name:0
 #: field:credit.control.run,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #. module: account_credit_control
 #: field:credit.control.policy,do_nothing:0
@@ -656,7 +668,7 @@ msgstr "Ausgewiesene Posten"
 #: field:credit.control.printer,__last_update:0
 #: field:credit.control.run,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zuletzt geändert am"
 
 #. module: account_credit_control
 #: field:credit.control.communication,write_uid:0
@@ -693,6 +705,7 @@ msgstr "Brief"
 #. module: account_credit_control
 #: field:credit.control.communication,current_policy_level:0
 #: view:credit.control.line:account_credit_control.credit_control_line_search
+#: view:credit.control.line:account_credit_control.credit_control_line_tree
 #: field:credit.control.policy.level,level:0
 msgid "Level"
 msgstr "Stufe"
@@ -814,6 +827,11 @@ msgstr "Betroffene Buchungsposten"
 #: field:credit.control.policy,name:0 field:credit.control.policy.level,name:0
 msgid "Name"
 msgstr "Name"
+
+#. module: account_credit_control
+#: model:account.account,name:account_credit_control.a_recv_3
+msgid "New Debtors - (test)"
+msgstr "Neue Debitoren - (Test)"
 
 #. module: account_credit_control
 #: field:credit.control.policy.changer,new_policy_id:0
@@ -969,7 +987,7 @@ msgstr "Regel \"<b>%s</b>\" hat keine Mahnposten generiert.<br/>"
 #. module: account_credit_control
 #: field:credit.control.line,level:0
 msgid "Policy Level"
-msgstr ""
+msgstr "Regelstufe"
 
 #. module: account_credit_control
 #: field:credit.control.policy,level_ids:0
@@ -1094,6 +1112,7 @@ msgid "Source"
 msgstr "Herkunft"
 
 #. module: account_credit_control
+#: view:credit.control.line:account_credit_control.credit_control_line_search
 #: field:credit.control.line,state:0 field:credit.control.run,state:0
 msgid "State"
 msgstr "Status"
